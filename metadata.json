@@ -1,0 +1,8 @@
+
+{
+  "name": "Farpoint Healthcare Kitengela",
+  "description": "Professional healthcare and pharmacy services by Farpoint Healthcare in Kitengela. Featuring WhatsApp ordering, clinical consultations, and fast delivery (Plus Code: GX97+QFM).",
+  "requestFramePermissions": [
+    "fullscreen"
+  ]
+}
