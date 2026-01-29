@@ -60,10 +60,10 @@ const Header = () => {
             onClick={(e) => handleNavClick(e, 'home')}
             className="flex items-center gap-2 group outline-none"
           >
-            <div className={`rounded-lg transition-colors overflow-hidden ${isScrolled ? 'bg-white' : 'bg-white'} p-2`}>
-              <img src="/kylepharmacy/assets/logo.png" alt="KYLE PHARM K. LTD" className="w-auto h-12 object-contain" />
+            <div className={`rounded-lg transition-colors overflow-hidden ${isScrolled ? 'bg-white' : 'bg-white'} p-1.5`}>
+              <img src="/kylepharmacy/assets/logo.png" alt="KYLE PHARM K. LTD" className="w-auto h-8 sm:h-12 object-contain" />
             </div>
-            <span className={`text-xl sm:text-2xl font-bold tracking-tight font-heading transition-colors ${isScrolled ? 'text-[#0B3B77]' : 'text-white'}`}>
+            <span className={`text-base sm:text-2xl font-bold tracking-tight font-heading transition-colors whitespace-nowrap ${isScrolled ? 'text-[#0B3B77]' : 'text-white'}`}>
               KYLE PHARM K. LTD
             </span>
           </button>
