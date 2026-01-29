@@ -9,11 +9,11 @@ import {
   ExternalLink
 } from 'lucide-react';
 
-const BRAND_NAME = "Farpoint Healthcare";
+const BRAND_NAME = "KYLE PHARM K. LTD";
 const PHONE_NUMBER = "+254743052401"; 
-const LOCATION_ADDRESS = "Kitengela, GX97+QFM";
-const MAP_LINK = "https://www.google.com/maps/search/GX97%2BQFM+Kitengela";
-const WHATSAPP_MESSAGE = "Hi Farpoint Healthcare Kitengela, I would like to make an enquiry regarding medication/services.";
+const LOCATION_ADDRESS = "Kitengela, GX96+33";
+const MAP_LINK = "https://www.google.com/maps/search/GX96%2B33+Kitengela";
+const WHATSAPP_MESSAGE = "Hi KYLE PHARM K. LTD Kitengela, I would like to make an enquiry regarding medication/services.";
 const WHATSAPP_LINK = `https://wa.me/${PHONE_NUMBER.replace('+', '')}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 const CALL_LINK = `tel:${PHONE_NUMBER}`;
 
@@ -60,11 +60,11 @@ const Header = () => {
             onClick={(e) => handleNavClick(e, 'home')}
             className="flex items-center gap-2 group outline-none"
           >
-            <div className={`p-2 rounded-lg transition-colors ${isScrolled ? 'bg-[#0B3B77]' : 'bg-white'}`}>
-              <Activity className={`${isScrolled ? 'text-white' : 'text-[#0B3B77]'} w-6 h-6`} />
+            <div className={`rounded-lg transition-colors overflow-hidden ${isScrolled ? 'bg-white' : 'bg-white'} p-2`}>
+              <img src="/kylepharmacy/assets/logo.png" alt="KYLE PHARM K. LTD" className="w-auto h-12 object-contain" />
             </div>
             <span className={`text-xl sm:text-2xl font-bold tracking-tight font-heading transition-colors ${isScrolled ? 'text-[#0B3B77]' : 'text-white'}`}>
-              Farpoint
+              KYLE PHARM K. LTD
             </span>
           </button>
           
@@ -224,7 +224,7 @@ const Hero = () => {
             Your Health, <span className="text-[#14B8A6]">Our Priority.</span>
           </h1>
           <p className="text-xl sm:text-2xl text-white/80 max-w-2xl leading-relaxed font-light animate-fade-in-up delay-150">
-            {images[currentSlide].subtitle} Farpoint Healthcare offers premium pharmaceutical services and clinical wellness delivered with integrity.
+            {images[currentSlide].subtitle} KYLE PHARM K. LTD offers premium pharmaceutical services and clinical wellness delivered with integrity.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4 animate-fade-in-up delay-300">
             <button 
@@ -328,7 +328,7 @@ const Services = () => {
       title: "Direct Home Delivery", 
       desc: "Secure delivery of all pharmaceutical items across Kitengela and neighboring areas.", 
       icon: Truck, 
-      img: "https://images.unsplash.com/photo-1585909665970-212111575b76?auto=format&fit=crop&q=80&w=2400" 
+      img: "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?auto=format&fit=crop&q=80&w=2400" 
     },
     { 
       title: "Diagnostic Checks", 
@@ -340,7 +340,7 @@ const Services = () => {
       title: "Wellness Products", 
       desc: "Exclusive range of verified vitamins, health supplements and skincare.", 
       icon: HeartPulse, 
-      img: "https://images.unsplash.com/photo-1550572017-ed20015ade30?auto=format&fit=crop&q=80&w=2400" 
+      img: "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&q=80&w=2400" 
     },
     { 
       title: "Prescription Care", 
@@ -414,7 +414,7 @@ const About = () => (
           <div className="absolute -top-10 -left-10 w-40 h-40 bg-[#0B3B77]/5 rounded-full blur-2xl"></div>
           <div className="grid grid-cols-2 gap-4">
             <img 
-              src="https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=2400" 
+              src="/kylepharmacy/assets/medical-team.jpg" 
               alt="Medical Team 1" 
               className="rounded-3xl shadow-xl w-full h-80 object-cover"
             />
@@ -425,7 +425,7 @@ const About = () => (
             />
           </div>
           <div className="absolute bottom-10 left-1/2 -translate-x-1/2 bg-white/90 backdrop-blur-md p-6 rounded-3xl shadow-2xl z-20 border border-slate-100 text-center w-64">
-            <h4 className="text-[#0B3B77] text-3xl font-bold font-heading mb-1">Farpoint</h4>
+            <h4 className="text-[#0B3B77] text-3xl font-bold font-heading mb-1">KYLE PHARM K. LTD</h4>
             <p className="text-[#14B8A6] text-xs font-bold uppercase tracking-wider">Kitengela Wellness Hub</p>
           </div>
         </div>
@@ -433,7 +433,7 @@ const About = () => (
           <div className="space-y-4">
             <h2 className="text-4xl font-bold text-[#0B3B77] font-heading leading-tight">Driven by <span className="text-[#14B8A6]">Patient-Centric</span> Values.</h2>
             <p className="text-lg text-slate-500 leading-relaxed font-light">
-              Farpoint Healthcare was established to bridge the gap between retail pharmacy and clinical healthcare. Based in Kitengela, we provide more than just medications; we offer personalized health strategies that ensure better patient outcomes.
+              KYLE PHARM K. LTD was established to bridge the gap between retail pharmacy and clinical healthcare. Based in Kitengela, we provide more than just medications; we offer personalized health strategies that ensure better patient outcomes.
             </p>
           </div>
           <div className="space-y-6">
@@ -546,9 +546,9 @@ const PrescriptionUpload = () => {
 
 const FAQ = () => {
   const faqs = [
-    { q: "Where exactly are you located in Kitengela?", a: "Farpoint Healthcare is located in Kitengela town center. You can find us using the Plus Code GX97+QFM. We are centrally positioned to serve the entire Kitengela community." },
+    { q: "Where exactly are you located in Kitengela?", a: "KYLE PHARM K. LTD is located in Kitengela town center. You can find us using the Plus Code GX96+33. We are centrally positioned to serve the entire Kitengela community." },
     { q: "How fast is the delivery service in Kitengela?", a: "We aim for ultra-fast delivery. Within Kitengela and its immediate environs, deliveries typically take 30-60 minutes after order confirmation. We operate a dedicated dispatch team." },
-    { q: "Can I consult with a professional through Farpoint?", a: "While we are a clinical pharmacy, we have a private consultation space where our clinical pharmacists provide medication reviews, wellness checks, and general health monitoring. We also provide referrals to specialists." },
+    { q: "Can I consult with a professional through KYLE PHARM K. LTD?", a: "While we are a clinical pharmacy, we have a private consultation space where our clinical pharmacists provide medication reviews, wellness checks, and general health monitoring. We also provide referrals to specialists." },
     { q: "Are my medications sourced legally?", a: "Absolutely. We are fully licensed by the Pharmacy and Poisons Board of Kenya. We only source medications directly from verified manufacturers and official distributors, ensuring 100% authenticity." }
   ];
 
@@ -561,7 +561,7 @@ const FAQ = () => {
           <div className="relative group">
             <div className="absolute -inset-4 bg-[#14B8A6]/10 rounded-[2.5rem] blur-2xl opacity-50"></div>
             <img 
-              src="https://images.unsplash.com/photo-1579165466511-70e21a47b611?auto=format&fit=crop&q=80&w=2400" 
+              src="/kylepharmacy/assets/pharmacy-professional.jpg" 
               alt="Pharmacy Professional" 
               className="rounded-[2rem] shadow-2xl relative z-10 w-full h-[500px] object-cover"
             />
@@ -602,7 +602,7 @@ const Contact = () => (
       <div className="grid lg:grid-cols-2 gap-16">
         <div className="space-y-10">
           <div className="space-y-4">
-            <h2 className="text-4xl font-bold text-[#0B3B77] font-heading leading-tight">Connect with <span className="text-[#14B8A6]">Farpoint Kitengela.</span></h2>
+            <h2 className="text-4xl font-bold text-[#0B3B77] font-heading leading-tight">Connect with <span className="text-[#14B8A6]">KYLE PHARM K. LTD.</span></h2>
             <p className="text-xl text-slate-500 leading-relaxed">Our medical professionals are ready to assist you. Whether you have a question or need to visit our center, we are here for you in the heart of Kitengela.</p>
           </div>
           <div className="grid sm:grid-cols-2 gap-8">
@@ -670,7 +670,7 @@ const Contact = () => (
                 <MapPin size={32} />
               </div>
               <h4 className="font-bold text-slate-900 text-2xl mb-2 font-heading">Find Us in Kitengela</h4>
-              <p className="text-slate-500 text-sm mb-8 leading-relaxed">Use our Plus Code <strong>GX97+QFM</strong> for precise navigation to our facility.</p>
+              <p className="text-slate-500 text-sm mb-8 leading-relaxed">Use our Plus Code <strong>GX96+33</strong> for precise navigation to our facility.</p>
               <a 
                 href={MAP_LINK}
                 target="_blank" 
@@ -706,13 +706,13 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-16 mb-16">
           <div className="col-span-1 md:col-span-2 space-y-8">
             <div className="flex items-center gap-2">
-              <div className="bg-white p-1.5 rounded-lg">
-                <Activity className="text-[#0B3B77] w-8 h-8" />
+              <div className="bg-white p-2 rounded-lg overflow-hidden">
+                <img src="/kylepharmacy/assets/logo.png" alt="KYLE PHARM K. LTD" className="w-auto h-12 object-contain" />
               </div>
-              <span className="text-3xl font-bold text-white font-heading tracking-tight">Farpoint</span>
+              <span className="text-3xl font-bold text-white font-heading tracking-tight">KYLE PHARM K. LTD</span>
             </div>
             <p className="text-blue-100 max-w-sm leading-relaxed font-light text-xl">
-              Farpoint Healthcare: Elevating standards of clinical care and pharmaceutical distribution in Kitengela. Dedicated to your lifelong wellness.
+              KYLE PHARM K. LTD: Elevating standards of clinical care and pharmaceutical distribution in Kitengela. Dedicated to your lifelong wellness.
             </p>
             <div className="flex gap-4">
               {[Facebook, Instagram, Twitter].map((Icon, i) => (
@@ -746,7 +746,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-blue-200/40 text-xs text-center">
-          <p>© {new Date().getFullYear()} Farpoint Healthcare. Kitengela, Kenya. Licensed by the Pharmacy and Poisons Board.</p>
+          <p>© {new Date().getFullYear()} KYLE PHARM K. LTD. Kitengela, Kenya. Licensed by the Pharmacy and Poisons Board.</p>
           <div className="flex gap-8">
             <button onClick={(e) => e.preventDefault()} className="hover:text-white transition-colors outline-none">Privacy Policy</button>
             <button onClick={(e) => e.preventDefault()} className="hover:text-white transition-colors outline-none">Terms of Service</button>
@@ -803,7 +803,7 @@ const App: React.FC = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-8 right-8 z-[100] bg-[#25D366] text-white w-16 h-16 rounded-2xl flex items-center justify-center shadow-[0_20px_50px_rgba(37,211,102,0.4)] hover:scale-110 active:scale-95 transition-all whatsapp-pulse"
-        aria-label="Contact Farpoint Healthcare"
+        aria-label="Contact KYLE PHARM K. LTD"
       >
         <MessageCircle size={32} />
       </a>

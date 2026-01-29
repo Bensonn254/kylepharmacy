@@ -3,15 +3,23 @@
 @tailwind utilities;
 
 @layer base {
-  /* Force larger base font size */
+  /* Fix collapsed html/body height */
   html {
+    height: 100%;
     font-size: 18px !important;
   }
   
-  /* Increase all text sizes globally */
   body {
+    min-height: 100vh;
+    height: 100%;
     font-size: 1.125rem !important; /* 20.25px */
     line-height: 1.7 !important;
+  }
+  
+  /* Ensure root div takes full height */
+  #root {
+    min-height: 100vh;
+    height: 100%;
   }
   
   /* Make headings significantly larger */
