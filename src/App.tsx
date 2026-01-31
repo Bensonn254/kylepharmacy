@@ -319,7 +319,7 @@ const TrustSection = () => (
 const Services = () => {
   const serviceList = [
     { 
-      title: "Clinical Consults", 
+      title: "Online Consultations", 
       desc: "Private consultations for medication reviews and chronic disease management in Kitengela.", 
       icon: Stethoscope, 
       img: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=2400" 
