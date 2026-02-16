@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Docs
+01_DOCS/
+
+# Environment variables
+.env
+.env.*
