@@ -88,7 +88,7 @@ const Header = () => {
               aria-label="KYLE PHARMACY LTD. Home"
             >
               <img 
-                src="/assets/pharmacy_logo.png" 
+                src="assets/pharmacy_logo.png" 
                 alt="KYLE PHARMACY LTD" 
                 className="h-10 w-auto object-contain" 
               />
@@ -145,7 +145,7 @@ const Header = () => {
                  className="flex items-center outline-none flex-shrink-0"
                >
                  <img 
-                   src="/assets/pharmacy_logo.png" 
+                   src="assets/pharmacy_logo.png" 
                    alt="KYLE PHARMACY LTD" 
                    className="h-10 w-auto object-contain" 
                  />
@@ -203,7 +203,7 @@ const Header = () => {
               aria-label="KYLE PHARMACY LTD. Home"
             >
               <img 
-                src="/assets/pharmacy_logo.png" 
+                src="assets/pharmacy_logo.png" 
                 alt="KYLE PHARMACY LTD" 
                 className="h-16 w-auto object-contain" 
               />
@@ -273,42 +273,42 @@ const Header = () => {
 const Hero = () => {
   const images = [
     {
-      url: "/assets/hero_1.png",
+      url: "assets/hero_1.png",
       title: "Professional Healthcare Services",
       subtitle: "Expert medical care and pharmaceutical services in Kitengela."
     },
     {
-      url: "/assets/hero_2.png",
+      url: "assets/hero_2.png",
       title: "Trusted Clinical Consultations",
       subtitle: "Private expert advice at our modern facility in Kitengela."
     },
     {
-      url: "/assets/hero_3.png",
+      url: "assets/hero_3.png",
       title: "Comprehensive Pharmaceutical Care",
       subtitle: "Professional support for your family's health in Kitengela."
     },
     {
-      url: "/assets/hero_4.png",
+      url: "assets/hero_4.png",
       title: "Your Trusted Pharmacy Partner",
       subtitle: "Quality medications and wellness products for Kitengela families."
     },
     {
-      url: "/assets/hero_5.png",
+      url: "assets/hero_5.png",
       title: "Advanced Medical Technology",
       subtitle: "State-of-the-art diagnostic and pharmaceutical services."
     },
     {
-      url: "/assets/hero_6.png",
+      url: "assets/hero_6.png",
       title: "Expert Pharmacist Consultation",
       subtitle: "Professional medication guidance and health advice in Kitengela."
     },
     {
-      url: "/assets/hero_7.png",
+      url: "assets/hero_7.png",
       title: "Fast & Secure Delivery",
       subtitle: "Prompt medicine delivery across Kitengela and surrounding areas."
     },
     {
-      url: "/assets/hero_8.png",
+      url: "assets/hero_8.png",
       title: "Complete Wellness Solutions",
       subtitle: "From prescriptions to preventive care, we're here for you."
     }
@@ -359,7 +359,7 @@ const Hero = () => {
               <div className="flex -space-x-2">
                 {[1, 2, 3, 4].map(i => (
                   <div key={i} className="w-12 h-12 rounded-full border-2 border-white/30 bg-white/10 overflow-hidden backdrop-blur-sm">
-                    <img src={`/assets/avatar_${i}.png`} alt="Patient" className="w-full h-full object-cover" />
+                    <img src={`assets/avatar_${i}.png`} alt="Patient" className="w-full h-full object-cover" />
                   </div>
                 ))}
               </div>
@@ -435,42 +435,42 @@ const Services = () => {
       title: "Online Consultations", 
       desc: "Private consultations for medication reviews and chronic disease management in Kitengela.", 
       icon: Stethoscope, 
-      img: "/assets/service_1.png",
+      img: "assets/service_1.png",
       whatsappMsg: "Hi KYLE PHARMACY LTD. I'm interested in booking an Online Consultation."
     },
     { 
       title: "Direct Home Delivery", 
       desc: "Secure delivery of all pharmaceutical items across Kitengela and neighboring areas.", 
       icon: Truck, 
-      img: "/assets/service_2.png",
+      img: "assets/service_2.png",
       whatsappMsg: "Hi KYLE PHARMACY LTD. I would like to inquire about Direct Home Delivery in Kitengela."
     },
     { 
       title: "Diagnostic Checks", 
       desc: "In-center BP, BMI, and Glucose monitoring by professional medical staff.", 
       icon: Activity, 
-      img: "/assets/service_3.png",
+      img: "assets/service_3.png",
       whatsappMsg: "Hi KYLE PHARMACY LTD. I'd like to schedule a Diagnostic Check (BP/Glucose)."
     },
     { 
       title: "Wellness Products", 
       desc: "Exclusive range of verified vitamins, health supplements and skincare.", 
       icon: HeartPulse, 
-      img: "/assets/service_4.png",
+      img: "assets/service_4.png",
       whatsappMsg: "Hi KYLE PHARMACY LTD. I'm looking for specific Wellness Products/Supplements."
     },
     { 
       title: "Prescription Care", 
       desc: "Digital records and automated refill reminders for long-term health management.", 
       icon: ClipboardList, 
-      img: "/assets/service_5.png",
+      img: "assets/service_5.png",
       whatsappMsg: "Hi KYLE PHARMACY LTD. I need assistance with managing my Prescriptions."
     },
     { 
       title: "Health Referrals", 
       desc: "Guidance and referrals to leading medical specialists in Kenya when needed.", 
       icon: UserCheck, 
-      img: "/assets/hero_6.png",
+      img: "assets/hero_6.png",
       whatsappMsg: "Hi KYLE PHARMACY LTD. I would like a Health Referral to a specialist."
     }
   ];
@@ -527,12 +527,12 @@ const About = () => (
           <div className="absolute -top-10 -left-10 w-40 h-40 bg-[#0B3B77]/5 rounded-full blur-2xl"></div>
           <div className="grid grid-cols-2 gap-4">
             <img 
-              src="/assets/hero_4.png" 
+              src="assets/hero_4.png" 
               alt="Pharmaceutical Team" 
               className="rounded-3xl shadow-xl w-full h-80 object-cover"
             />
             <img 
-              src="/assets/hero_3.png" 
+              src="assets/hero_3.png" 
               alt="Clinical Environment" 
               className="rounded-3xl shadow-xl w-full h-80 object-cover mt-12"
             />
@@ -928,7 +928,7 @@ const FAQ = () => {
           <div className="relative group">
             <div className="absolute -inset-4 bg-[#14B8A6]/10 rounded-[2.5rem] blur-2xl opacity-50"></div>
             <img 
-              src="/assets/hero_6.png" 
+              src="assets/hero_6.png" 
               alt="Pharmacy Professional" 
               className="rounded-[2rem] shadow-2xl relative z-10 w-full h-[500px] object-cover"
             />
@@ -1082,7 +1082,7 @@ const Contact = () => {
           <div className="space-y-8">
             <div className="h-[400px] bg-slate-200 rounded-[3rem] overflow-hidden relative shadow-2xl border-8 border-white group">
               <img 
-                src="/assets/hero_4.png" 
+                src="assets/hero_4.png" 
                 alt="Pharmacy Store Front" 
                 className="w-full h-full object-cover grayscale opacity-50 group-hover:scale-110 transition-transform duration-1000"
               />
@@ -1154,7 +1154,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="inline-block bg-white p-3 rounded-xl mb-4 shadow-sm">
               <img 
-                src="/assets/pharmacy_logo.png" 
+                src="assets/pharmacy_logo.png" 
                 alt="KYLE PHARMACY LTD" 
                 className="h-12 md:h-16 w-auto object-contain contrast-[1.1] filter" 
               />
